@@ -1,0 +1,77 @@
+{
+    "livros": [
+      {
+        "id": 1,
+        "nome": "Dracula",
+        "autor": "Bram Stoker",
+        "preco": 49.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 2,
+        "nome": "Harry Potter",
+        "autor": "J. K. Rowling",
+        "preco": 290.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 3,
+        "nome": "Harry Potter 2",
+        "autor": "J. K. Rowling",
+        "preco": 400.50,
+        "categoria_id": 1
+      },
+      {
+        "id": 4,
+        "nome": "A Garota do Lago",
+        "autor": "Charlie Donlea",
+        "preco": 70.20,
+        "categoria_id": 1
+      },
+      {
+        "id": 5,
+        "nome": "A Cabana",
+        "autor": "William P. Young",
+        "preco": 70.50,
+        "categoria_id": 2
+      }
+ 
+    ],
+    "categorias": [
+      {
+        "id": 1,
+        "nome": "Ficção"
+      },
+      {
+        "id": 2,
+        "nome": "Terror"
+      },
+      {
+        "id": 3,
+        "nome": "Ação"
+      },
+      {
+        "id":4,
+        "nome": "Romance"
+      }
+    ],
+    
+    "capa":[
+    {
+        "id":1,
+        "capa": "Hardback"
+    },
+    {
+        "id":2,
+        "capa": "Hardcover"
+    },
+    {
+        "id":3,
+        "capa": "Paperback"
+    },
+    {
+        "id":4,
+        "capa": "Flexível"
+    }
+    ]
+  }

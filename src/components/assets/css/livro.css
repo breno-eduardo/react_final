@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.Card-livro{
+    width: 250px;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 5px rgba(105, 105, 105, 0.233);
+}
+.description-card{
+    margin-top: 15px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.btnValor{
+    margin:15px 2px;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    background: none;
+}
+
+.btnValor:hover{
+    background: rgb(248, 248, 248);
+}
+
+.btn{
+    padding:10px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    color:white;
+}
+
+.btnEdit{
+    background:#009A26;
+}
+
+.btnDeletar{
+    background:#D34735;
+}

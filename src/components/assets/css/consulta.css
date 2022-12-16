@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.itemForm{
+    text-align: center;
+    color:#25255a !important;
+    font-weight: bold;
+}
+
+.itemForm input[type=text] {
+    border-radius: 10px;
+    width:250px;
+    height:30px;
+    font-size:14px;
+}
+
+.btnCadastrar{
+    width:100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btnCadastrar input{
+    border:3px solid #25255a ;
+    padding: 20px;
+    font-size:19px;
+    background: none;
+    border-radius: 50px;
+    font-weight: 600;
+    color:#25255a;
+}
